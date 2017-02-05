@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 Parse.Cloud.beforeSave("User", function(request, response){
    console.log("Before Save called");
@@ -25,7 +25,7 @@ Parse.Cloud.beforeSave("User", function(request, response){
                 }
             },{ useMasterKey: true });
    }
-});
+});*/
 /*Parse.Cloud.afterSave("User", function (request) {
     console.log("Afer save called");
     if ( request.object.updatedAt.getTime() != request.object.createdAt.getTime())
