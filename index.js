@@ -30,8 +30,8 @@ var api = new ParseServer({
 	        facebook: {
 	            appIds: "1764170817207904"
 	        }
-	    }
-	    
+	    },
+
 	//**** Live Query ****//
 	// liveQuery: {
 	// 	classNames: ["TestObject", "Place", "Team", "Player", "ChatMessage"] // List of classes to support for query subscriptions
