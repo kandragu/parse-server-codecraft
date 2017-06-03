@@ -22,6 +22,16 @@ var api = new ParseServer({
 	appId: process.env.APP_ID || 'myAppId',
 	masterKey: process.env.MASTER_KEY || 'myMasterKey', //Add your master key here. Keep it secret!	
 	
+	oauth: {
+	        accountkit: {
+	            module: 'parse-server-accountkit-auth',
+	            appSecret: '72bd846e012afcbb97d7efd61806d256'
+	        },
+	        facebook: {
+	            appIds: "1764170817207904"
+	        }
+	    }
+	    
 	//**** Live Query ****//
 	// liveQuery: {
 	// 	classNames: ["TestObject", "Place", "Team", "Player", "ChatMessage"] // List of classes to support for query subscriptions
